@@ -616,7 +616,10 @@ open class HorizontalBarChartRenderer: BarChartRenderer
     {
         guard let data = dataProvider?.data
             else { return false }
-        return data.entryCount < Int(CGFloat(dataProvider?.maxVisibleCount ?? 0) * self.viewPortHandler.scaleY)
+        if entryCount > CGFloat(Int.max) {
+            entryCount = CGFloat(Int.max)
+        }
+        return data.entryCount < Int(entryCount)
     }
     
     /// Sets the drawing position of the highlight object based on the riven bar-rect.

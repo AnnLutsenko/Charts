@@ -162,7 +162,10 @@ open class CombinedChartRenderer: NSObject, DataRenderer
     open func isDrawingValuesAllowed(dataProvider: ChartDataProvider?) -> Bool
     {
         guard let data = dataProvider?.data else { return false }
-        return data.entryCount < Int(CGFloat(dataProvider?.maxVisibleCount ?? 0) * viewPortHandler.scaleX)
+        if entryCount > CGFloat(Int.max) {
+            entryCount = CGFloat(Int.max)
+        }
+        return data.entryCount < Int(entryCount)
     }
 
     /// All sub-renderers.
