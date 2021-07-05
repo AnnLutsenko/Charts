@@ -589,6 +589,7 @@ open class PieChartRenderer: NSObject, DataRenderer
     open func isDrawingValuesAllowed(dataProvider: ChartDataProvider?) -> Bool
     {
         guard let data = dataProvider?.data else { return false }
+        var entryCount = CGFloat(dataProvider?.maxVisibleCount ?? 0) * viewPortHandler.scaleX
         if entryCount > CGFloat(Int.max) {
             entryCount = CGFloat(Int.max)
         }
