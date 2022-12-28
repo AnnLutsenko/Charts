@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F2749BD5443C1CB5FE2080C2"
-               BuildableName = "ChartsTests.xctest"
-               BlueprintName = "ChartsTests"
+               BuildableName = "ChartsLibraryTests.xctest"
+               BlueprintName = "ChartsLibraryTests"
                ReferencedContainer = "container:Charts.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F2749BD5443C1CB5FE2080C2"
-               BuildableName = "ChartsTests.xctest"
-               BlueprintName = "ChartsTests"
+               BuildableName = "ChartsLibraryTests.xctest"
+               BlueprintName = "ChartsLibraryTests"
                ReferencedContainer = "container:Charts.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -55,8 +55,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F2749BD5443C1CB5FE2080C2"
-            BuildableName = "ChartsTests.xctest"
-            BlueprintName = "ChartsTests"
+            BuildableName = "ChartsLibraryTests.xctest"
+            BlueprintName = "ChartsLibraryTests"
             ReferencedContainer = "container:Charts.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

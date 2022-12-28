@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		0439A3541C9FF95F00496F83 /* PiePolylineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0439A3521C9FF95F00496F83 /* PiePolylineChartViewController.m */; };
 		0471CBFC1CA1090A00E52DBC /* PiePolylineChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0471CBFB1CA1090A00E52DBC /* PiePolylineChartViewController.xib */; };
-		0630AE511D81271B008859B0 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; };
-		0630AE521D81271B008859B0 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		068A9B191FBBF351003CF1AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8EAF2F1AB32E15009697AA /* Images.xcassets */; };
 		068A9B1A1FBBF355003CF1AD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64D06EA1FB199130067418D /* Launch Screen.storyboard */; };
 		068A9B1B1FBBF366003CF1AD /* radar_marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B613DA31D526AD5000F1E98 /* radar_marker@3x.png */; };
@@ -72,8 +70,6 @@
 		225B36891F6EBA640005B3D5 /* ScatterChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED171ABBFB340013F194 /* ScatterChartViewController.xib */; };
 		225B368A1F6EBA640005B3D5 /* SinusBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED3F1ABC1AC60013F194 /* SinusBarChartViewController.xib */; };
 		225B368B1F6EBA640005B3D5 /* StackedBarChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEAED1A1ABBFB340013F194 /* StackedBarChartViewController.xib */; };
-		225B368C1F6EBBB00005B3D5 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; };
-		225B368D1F6EBBB00005B3D5 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0630AE411D8126C0008859B0 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		55E356501ADC638F00A57971 /* BubbleChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55E3564D1ADC638F00A57971 /* BubbleChartViewController.xib */; };
 		55E356511ADC638F00A57971 /* BubbleChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E3564F1ADC638F00A57971 /* BubbleChartViewController.m */; };
 		5B0CC7851ABB875400665592 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CC7831ABB875400665592 /* PieChartViewController.m */; };
@@ -139,20 +135,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0630AE401D8126C0008859B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
-		};
-		0630AE421D8126C0008859B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
-		};
 		0630AE531D81271B008859B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
@@ -167,6 +149,20 @@
 			remoteGlobalIDString = A58A4ED274A941CA248EA921;
 			remoteInfo = Charts;
 		};
+		D3C80F08295CECBD009919D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = ChartsLibrary;
+		};
+		D3C80F0A295CECBD009919D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0630AE391D8126C0008859B0 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsLibraryTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,7 +172,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				225B368D1F6EBBB00005B3D5 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +182,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0630AE521D81271B008859B0 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,7 +325,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				225B368C1F6EBBB00005B3D5 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,7 +332,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0630AE511D81271B008859B0 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +341,8 @@
 		0630AE3A1D8126C0008859B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0630AE411D8126C0008859B0 /* Charts.framework */,
-				0630AE431D8126C0008859B0 /* ChartsTests.xctest */,
+				D3C80F09295CECBD009919D7 /* ChartsLibrary.framework */,
+				D3C80F0B295CECBD009919D7 /* ChartsLibraryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -660,6 +652,7 @@
 					};
 					5B57BBAE1A9B26AA0036A6CC = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = NJKT68HLGF;
 						LastSwiftMigration = 1150;
 						ProvisioningStyle = Automatic;
 					};
@@ -691,18 +684,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		0630AE411D8126C0008859B0 /* Charts.framework */ = {
+		D3C80F09295CECBD009919D7 /* ChartsLibrary.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 0630AE401D8126C0008859B0 /* PBXContainerItemProxy */;
+			path = ChartsLibrary.framework;
+			remoteRef = D3C80F08295CECBD009919D7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		0630AE431D8126C0008859B0 /* ChartsTests.xctest */ = {
+		D3C80F0B295CECBD009919D7 /* ChartsLibraryTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 0630AE421D8126C0008859B0 /* PBXContainerItemProxy */;
+			path = ChartsLibraryTests.xctest;
+			remoteRef = D3C80F0A295CECBD009919D7 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1053,11 +1046,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NJKT68HLGF;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dcg.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=appletvos*]" = "com.dcg.ChartsLibraryDemo-iOS";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.dcg.ChartsLibraryDemo-iOS";
 				PRODUCT_NAME = "ChartsDemo-iOS";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";
@@ -1076,11 +1071,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NJKT68HLGF;
 				INFOPLIST_FILE = "Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dcg.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=appletvos*]" = "com.dcg.ChartsLibraryDemo-iOS";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "com.dcg.ChartsLibraryDemo-iOS";
 				PRODUCT_NAME = "ChartsDemo-iOS";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvsimulator appletvos";

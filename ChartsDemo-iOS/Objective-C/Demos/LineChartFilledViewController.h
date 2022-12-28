@@ -11,7 +11,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DemoBaseViewController.h"
-#import <Charts/Charts.h>
+#import <ChartsLibrary/ChartsLibrary-Swift.h>
 
 @interface LineChartFilledViewController : DemoBaseViewController
 
