@@ -1,4 +1,5 @@
-@testable import ChartsLibrary
+@testable import
+
 import SnapshotTesting
 import XCTest
 
